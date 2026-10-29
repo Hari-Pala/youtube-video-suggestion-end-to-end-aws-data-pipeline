@@ -2,26 +2,6 @@
 
 An end-to-end data engineering project that demonstrates how to ingest, store, transform, validate, and analyze YouTube trending video data using AWS services.
 
-This project is based on the YouTube Data Engineering project demonstrated by [Darshil Parmar](https://www.youtube.com/@DarshilParmar). It explores the design of a cloud-based data pipeline using a data lake architecture and AWS analytics services.
-
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Business Problem](#business-problem)
-- [Project Objectives](#project-objectives)
-- [Architecture](#architecture)
-- [Technology Stack](#technology-stack)
-- [Data Pipeline Workflow](#data-pipeline-workflow)
-- [Medallion Architecture](#medallion-architecture)
-- [Data Quality Checks](#data-quality-checks)
-- [Analytics and Business Insights](#analytics-and-business-insights)
-- [Project Structure](#project-structure)
-- [Dataset](#dataset)
-- [AWS Setup and Execution](#aws-setup-and-execution)
-- [Security Considerations](#security-considerations)
-- [Learning Outcomes](#learning-outcomes)
-- [Reference](#reference)
-
 ## Project Overview
 
 YouTube generates a large amount of video metadata, including video titles, channels, categories, views, likes, comments, and trending information. Analyzing this data can help identify content trends and understand how video performance varies across countries and categories.
@@ -328,11 +308,3 @@ This project provides practical experience with:
 - Preparing curated datasets for business intelligence.
 - Applying AWS IAM and cloud security principles.
 
-## Reference
-
-- **Project tutorial:** [Darshil Parmar — AWS Data Engineering Masterclass and YouTube Data Pipeline](https://youtu.be/yvAWbbQa8eE)
-- **AWS documentation:** [Amazon S3](https://docs.aws.amazon.com/s3/), [AWS Glue](https://docs.aws.amazon.com/glue/), [AWS Lambda](https://docs.aws.amazon.com/lambda/), [AWS Step Functions](https://docs.aws.amazon.com/step-functions/), [Amazon Athena](https://docs.aws.amazon.com/athena/), and [Amazon QuickSight](https://docs.aws.amazon.com/quicksight/).
-
----
-
-**Note:** This is a learning project based on an educational tutorial. The actual implementation and deployment status depend on the code and AWS resources configured in this repository.
